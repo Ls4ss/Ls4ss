@@ -17,7 +17,7 @@ $ whoami --profile
 > Handle: Ls4ss
 > Core Focus: Red Team, Active Directory Penetration Testing, Cloud Pentesting (Azure/Entra ID).
 > Specialty: EASM Tooling, Exploit Development, OSINT & Threat Intel Automation.
-> Handle Identity: ☠️ H4x0r
+> Handle Identity: H4x0r
 ```
 
 ### Academic Background
@@ -53,12 +53,29 @@ $ whoami --profile
 
 ---
 
-## Featured Projects & Exploits
+## Featured Projects & Research
 
-### 🛠️ [ReconHound](https://lucassouza.io/reconhound/)
-A comprehensive, high-performance engine designed for **External Attack Surface Management (EASM)**, automated asset discovery, and cyber lead intelligence. It maps internet-facing vectors and evaluates perimeter exposure risks in real time.
+### [ReconHound](https://lucassouza.io/reconhound/)
 
-### 🎯 Public Exploits & Security Research
+<p align="left">
+  <img src="https://img.shields.io/badge/Engine-EASM_%26_Threat_Intel-red?style=flat-square&logo=target&logoColor=white" alt="EASM Engine" />
+  <img src="https://img.shields.io/badge/Python-3.11+-blue?style=flat-square&logo=python&logoColor=white" alt="Python Version" />
+  <img src="https://img.shields.io/badge/Architecture-Asyncio_/_FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Graph_UI-Cytoscape.js-111111?style=flat-square" alt="Cytoscape.js" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License" />
+</p>
+
+An asynchronous, modular, high-performance **External Attack Surface Management (EASM)** and Threat Intelligence engine designed for Red Teams and security researchers. It automates asset discovery, active verification, and vulnerability weaponization intelligence, transforming noisy telemetry into correlated, prioritized attack vectors.
+
+* **BloodHound-like Graph Modeling:** Visualizes attack paths, target relationships, and exposed vectors using Cytoscape.js (`Target Root -> Domains -> IPs -> Services -> CVEs -> PoCs`).
+* **Recursive Discovery & CDN Bypass:** Cascades TLS certificates, WHOIS, DNS resolution, and automated CDN proxy bypass (Cloudflare/Fastly/Akamai) to discover hidden infrastructure.
+* **Active Validation Pipeline:** Integrates high-speed port scanning (Masscan) with WAF evasion and targeted vulnerability validation (Nuclei verified active rules).
+* **Risk Prioritization Matrix:** Correlates CVSS Base Scores, FIRST EPSS probability, CISA KEV (Known Exploited Vulnerabilities), and public exploit repositories (ExploitDB, GitHub PoCs).
+* **Smart Non-Destructive Persistence:** Built-in SQLite database engine with incremental merging (Smart Upsert) to track exposure history and asset provenance.
+
+---
+
+### Public Exploits & Security Research
 * **[CVE-2021-41773 / CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013):** Apache HTTP Server 2.4.49/2.4.50 Path Traversal & RCE exploit.
 * **[CVE-2020-29134](https://github.com/Ls4ss/CVE-2020-29134):** TOTVS Fluig Platform Path Traversal exploit.
 * **[CVE-2020-13886](https://github.com/Ls4ss/CVE-2020-13886):** LFI exploit targeting Intelbras TIP VoIP devices.
