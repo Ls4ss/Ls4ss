@@ -6,9 +6,7 @@
   <img src="https://img.shields.io/badge/Handle-Ls4ss-111111?style=for-the-badge&logo=github&logoColor=white" alt="Handle" />
 </p>
 
-Cybersecurity Specialist and Red Team Engineer with over a decade of hands-on experience in IT infrastructure and offensive security. Focus on Red Team operations, Active Directory exploitation, Cloud Security (Azure/Entra ID), and advanced tool development for **External Attack Surface Management (EASM)** and Cyber Lead Intelligence.
-
-Founder of **DetecTI Security**, an initiative focused on offensive security research, threat intelligence automation, and custom tooling development.
+Cybersecurity Specialist and Red Team Engineer with over a decade of hands-on experience in IT infrastructure and offensive security. Focus on Red Team operations, Active Directory exploitation, Cloud Security (Azure/Entra ID), and advanced tool development for **External Attack Surface Management (EASM)**.
 
 ---
 
